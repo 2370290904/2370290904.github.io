@@ -1,0 +1,708 @@
+
+.w {
+    width: 1350px;
+    margin: 0 auto;
+}
+
+
+// 第一屏
+.body {
+    background: url('../img/01.jpg');
+    width: 100%;
+    height: 937px;
+    float: left;
+    .nav {
+        height: 90px;
+        width: 100%;
+        background-color: rgba(0, 0, 0,.8);
+        float: left;
+        position: fixed;
+        z-index: 10;
+        .nav1 {
+            .logo {
+                background: url('../img/精灵图.png');
+                width: 230px;
+                height: 58px;
+                float: left;
+                margin-top: 20px;
+                a {
+                    display: block;
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            ul {
+                height: 90px;
+                width: 1092px;
+                float: left;
+                li {
+                    width: 156px;
+                    height: 90px;
+                    float: left;
+                    a {
+                        display: block;
+                        height: 100%;
+                        width: 100%;
+                        text-align: center;
+                        margin-top: 30px;
+                        span:nth-child(1) {
+                            font-size: 18px;
+                            color:#ffffff;
+                        }
+                        span:nth-child(3) {
+                            font-size: 10px;
+                            margin-top: 10px;
+                            display: block;
+                            color: #666666;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .community {
+        position: fixed;
+        width: 100%;
+        height: 200px;
+        background: rgba(0, 0, 0,.5);
+        top: 90px;
+        float: left;
+        overflow: hidden;
+        display: none;
+        z-index: 5;
+        p {
+            background: url('../img/05.png');
+            width: 120px;
+            height: 120px;
+            position: absolute;
+            top: 27px;
+        }
+        .p1 {
+            left: 550px;
+            img {
+                width: 110px;
+                height: 110px;
+                position: absolute;
+                top: 5px;
+                left: 5px;
+            }
+        }
+        .p2 {
+            left:730px;
+            img {
+                width: 110px;
+                height: 110px;
+                position: absolute;
+                top: 5px;
+                left: 5px;
+            }
+        }
+        .p3 {
+            left:900px;
+            img {
+                width: 110px;
+                height: 110px;
+                position: absolute;
+                top: 5px;
+                left: 5px;
+            }
+        }
+        div {
+            height: 100px;
+            width: 1px;
+            background-color: #ffffff;
+            left: 1100px;
+            position: absolute;
+            top: 40px;
+        }
+        span:nth-child(5) {
+            color: #fff;
+            position: absolute;
+            left: 1150px;  
+            top: 50px;
+        }
+        span:nth-child(6) {
+            color: #fff;
+            position: absolute;
+            left: 1150px;  
+            top: 80px;
+        }
+    }
+    .soe {
+        height: 200px;
+        width: 100%;
+        background-color: rgba(0, 0, 0,.5);
+        display: none;
+        margin-top: 90px;
+        float: left;
+        position: fixed;
+        z-index: 5;
+        ul {
+            float: right;
+            li {
+                width: 156px;
+                height: 90px;
+                float: left;
+                margin-top: 25px;
+                margin-left: 5px;
+                a {
+                    font-size: 12px;
+                    color: #fff;
+                    margin-bottom: 18px;
+                    display: block;
+                }
+            }
+        }
+    }
+    .qrCode{
+        width: 167px;
+        height: 193px;
+        background: url('../img/03.png');
+        position: relative;
+        top: 600px;
+        left: 500px;
+        img {
+            width: 152px;
+            height: 152px;
+            display: block;
+            top: 8px;
+            left: 8px;
+            position: absolute;
+        }
+        p {
+            height: 3px;
+            width: 155px;
+            background:#cececf;
+            left: 6px;
+            top: 5px;
+            position: absolute;
+            box-shadow:0px 0px 5px #c1aa8c;
+            z-index: 5  ;
+        }
+        .apirit {
+            background: url('../img/精灵图.png');
+            width: 274px;
+            height: 100px;
+            position: absolute;
+            top: -5px;
+            background-position: -187px -57px;
+            left: 180px;
+            transform: rotate(4deg);
+            a {
+                display: block;
+                height: 100%;
+                width: 100%;
+
+            }
+        }
+        .apirit1 {
+            background: url('../img/精灵图.png');
+            width: 274px;
+            height: 100px;
+            position: absolute;
+            top: 95px;
+            background-position: -187px -155px;
+            left: 180px;
+            transform: rotate(4deg);
+            a {
+                display: block;
+                height: 100%;
+                width: 100%;
+
+            }
+        }
+    }
+}
+
+// 第二屏
+.partTwo {
+// 第二屏的背景视频
+.bgvid {
+    width: 100%;
+    // height: 100%;
+    position: relative;
+    overflow: hidden;
+    z-index: -999;
+}
+// 第二部分内容
+.slideshow {
+    width: 810px;
+    height: 400px;
+    background-color: antiquewhite;
+    position: absolute;
+    z-index: 3;
+    top:1037px;
+    right: 43%;
+    img {
+        display: none;
+        height: 350px;
+        width: 810px;
+        position: absolute;
+    }
+    img:nth-child(1) {
+        display: block;
+    }
+    ul {
+        height: 50px;
+        width: 100%;
+        background-color: #000000;
+        position: absolute;
+        bottom: 0;
+        li {
+            width: 162px;
+            height: 100%;
+            float: left;
+            text-align: center;
+            line-height: 50px;
+            a {
+                color: #fff;
+                display: block;
+                height: 100%;
+                width: 100%;
+            }
+        }
+    }
+}
+
+// 遮罩层
+.maksOne {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color:rgba(0, 0, 0,.6);
+    z-index: 1;
+}
+
+// 视频窗口
+.mp4 {
+    height: 360px;
+    width: 490px;
+    background: url('../img/14.png');
+    z-index: 2;
+    position: absolute;
+    left: 57%;
+    top: 1077px;
+    margin-left: -50px;
+    a {
+        display: block;
+        height: 100%;
+        width: 100%;
+        p {
+            width: 77px;
+            height: 77px;
+            background: url('../img/15.png');
+            position: absolute;
+            left: 230px;
+            top: 140px;
+        }
+        img {
+            margin-top: 4px;
+            width: 430px;
+            height: 350px;
+            margin-left: 55px;
+            display: none;
+        }
+    }
+    a:hover {
+        img {
+            display: block;
+        }
+    }
+}
+
+// 悬停和点击特性
+.teXing1 {
+    background-color: #ffa415;
+}
+#teXing2 {
+    background-color: #ffa415;
+}
+
+// 弹出视频窗口
+.popup {
+    height: 550px;
+    width: 1000px;
+    background-color: #ffbe21;
+    z-index: 20;
+    position: absolute;
+    top: 1100px;
+    left: 20%;
+    display: none;
+     video {
+         width: 100%;
+         border: 25px #ffbe21 solid;
+     }
+     .close {
+         width: 80px;
+         height: 80px;
+         background: url('../img/精灵图01.png');
+         background-position: -1640px 0;
+         position: absolute;
+         top: 0;
+         right: -130px;
+         a {
+             display:block;
+             width: 100%;
+             height: 100%;
+         }
+     }
+}
+
+// 第二层遮罩层
+.maksTwo {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .8);
+    position: absolute;
+    overflow: hidden;
+    z-index: 10;
+    display: none;
+}
+
+// 人物
+.figure {
+    background: url('../img/17.png');
+    height: 460px;
+    width: 485px;
+    position: absolute;
+    z-index: 3;
+    top: 1420px;
+    left: 250px;
+}
+
+// 新闻
+.news {
+    height: 420px;
+    position: absolute;
+    z-index: 5;
+    right: 20%;
+    width: 750px;
+    top: 1450px;
+    ul {
+        height: 100%;
+        width: 100%;
+        div {
+            height: 50px;
+            width: 100%;
+            float: left;
+            a {
+                float: left;
+            }
+            .newest {
+                display: block;
+                background: url('../img/精灵图.png');
+                width: 80px;
+                height: 38px;
+                background-position: -474px -10px;
+                margin-left: 30px;
+                margin-top: 10px;
+            }
+            .newest1 {
+                display: block;
+                background: url('../img/精灵图.png');
+                width: 80px;
+                height: 36px;
+                background-position: -558px -11px;
+                margin-left: 110px;
+                margin-top: 10px;
+            }
+            .newest2 {
+                display: block;
+                background: url('../img/精灵图.png');
+                width: 85px;
+                height: 36px;
+                background-position: -652px -13px;
+                margin-left: 110px;
+                margin-top: 10px;
+            }
+            .newest3 {
+                display: block;
+                background: url('../img/精灵图.png');
+                width: 85px;
+                height: 36px;
+                background-position: -746px -10px;
+                margin-left: 110px;
+                margin-top: 10px;
+            }
+            .sanjiao {
+                width: 15px;
+                height: 10px;
+                background: url('../img/精灵图.png');
+                background-position: -285px -438px;
+                position: absolute;
+                left: 150px;
+                top: 20px;
+            }
+            .sanjiao1 {
+                width: 15px;
+                height: 10px;
+                background: url('../img/精灵图.png');
+                background-position: -285px -438px;
+                position: absolute;
+                left: 350px;
+                top: 20px;
+            }
+            .sanjiao2 {
+                width: 15px;
+                height: 10px;
+                background: url('../img/精灵图.png');
+                background-position: -285px -438px;
+                position: absolute;
+                left: 550px;
+                top: 20px;
+            }
+            .newest4 {
+                background-position: -492px -58px;
+            }
+            .newest5 {
+                background-position: -585px -58px;
+            }
+            .newest6 {
+                background-position: -678px -58px;
+            }
+            .newest7 {
+                background-position: -771px -58px;
+            }
+        }
+        .xinwen {
+            display: none;
+            a {
+                display: block;
+                width: 100%;
+                height: 50px;
+                line-height: 50px;
+                color: #dddddd;
+                border-bottom: 1px #353333 dotted;
+                span {
+                    float: right;
+                    margin-right: 80px;
+                }
+            }
+            a:hover {
+                color: #ffa415;
+            }
+        }
+        .zuixin {
+            // display: none;
+            a {
+                display: block;
+                width: 100%;
+                height: 50px;
+                line-height: 50px;
+                color: #dddddd;
+                border-bottom: 1px #353333 dotted;
+                span {
+                    float: right;
+                    margin-right: 80px;
+                }
+            }
+            a:hover {
+                color: #ffa415;
+            }
+        }
+        .gonggao {
+            display: none;
+            a {
+                display: block;
+                width: 100%;
+                height: 50px;
+                line-height: 50px;
+                color: #dddddd;
+                border-bottom: 1px #353333 dotted;
+                span {
+                    float: right;
+                    margin-right: 80px;
+                }
+            }
+            a:hover {
+                color: #ffa415;
+            }
+        }
+        .huodong {
+            display: none;
+            a {
+                display: block;
+                width: 100%;
+                height: 50px;
+                line-height: 50px;
+                color: #dddddd;
+                border-bottom: 1px #353333 dotted;
+                span {
+                    float: right;
+                    margin-right: 80px;
+                }
+            }
+            a:hover {
+                color: #ffa415;
+            }
+        }
+    }
+}
+}
+
+// 第三屏
+.partThree {
+    
+    .touxing {
+        position: relative;
+        top: 150px;
+        left: 50px;
+        p {
+            background-color: #000000;
+            height: 630px;
+            width: 2px;
+        }
+        img {
+            // margin-top: 10px;
+            // margin-left: -30px;
+            display: block;
+        }
+        a:nth-child(1) {
+            margin-top: 30px;
+            float: left;
+        }
+        .tupian {
+            display: block;
+            width: 65px;
+            height: 83px;
+            background: url('../img/精灵图.png');
+            background-position: -343px -394px;
+            margin-top: 20px;
+        }
+        a {
+            top: -600px;
+            left: -30px;
+            position: relative;
+            display: block;
+            width: 69px;
+            height: 89px;
+            img:nth-child(2) {
+                display: none;
+            }
+        }
+    }
+    .hreo {
+        position: relative;
+        top: -1000px;
+        left: 250px;
+        .yuyin {
+            display: block;
+            background: url('../img/精灵图.png');
+            background-position: -480px -155px;
+            width: 52px;
+            height: 60px;
+        }
+        h1 {
+            position: absolute;
+            top: -10px;
+            left: 80px;
+            color: #ffffff;
+            z-index: 1;
+        }
+        h2 {
+            position: absolute;
+            left: 80px;
+            top: 30px;
+            color: #fff;
+            z-index: 1;
+        }
+        .hreo1 {
+            position: absolute;
+            top: -80px;
+        }
+        .jiahui {
+            width: 83px;
+            height: 112px;
+            position: absolute;
+            left: 600px;
+            top: 0px;
+        }
+        h3 {
+            position: absolute;
+            left: 613px;
+            top: -15px;
+            color: #aaaaaa;
+        }
+        .data-bank{
+            position: absolute;
+            left: 700px;
+            top:-5px;
+            .p1 {
+                width: 4px;
+                height: 48px;
+                background-color: #ffa415;
+            }
+            .text {
+                font-size: 55px;
+                color: #fff;
+                position: absolute;
+                top: -10px;
+                left: 5px;
+                width: 150px;
+            }
+            .line {
+                display: block;
+                background: url('../img/精灵图.png');
+                width: 360px;
+                height: 27px;
+                background-position: -479px -110px;
+                position: absolute;
+                top: 28px;
+            }
+            .spark {
+                position: absolute;
+                left: 230px;
+                top : 0;
+                width: 80px;
+                font-size: 18px;   
+            }
+            .desc-name {
+                position: absolute;
+                top: 80px;
+                .txt {
+                    width: 370px;
+                }
+                img {
+                    position: absolute;
+                    top: 90px;
+                    width: 172px;
+                }
+                .img-maks {
+                    left: 0;
+                }
+                .arrow {
+                    width: 17px;
+                    height: 27px;
+                    background: url('../img/精灵图2.png');
+                    background-position: -216px -314px;
+                    position: absolute;
+                    top: 135px;
+                    left: 80px;
+                }
+                a {
+                    display: block;
+                    // background-color: #666666;
+                    width: 172px;
+                    height: 105px;
+                    position: absolute;
+                    top: 90px;
+                    z-index: 2;
+                }
+                i {
+                    background: url('../img/精灵图2.png') no-repeat;
+                    background-position: -65px -315px;
+                    width: 75px;
+                    height: 20px;
+                    display: block;
+                    transform:scale(0.6,0.8);
+                    font-size:20px;
+                    text-align: center;
+                    position: absolute;
+                    left: 200px;
+                    top: 100px;
+                }
+            }
+        }
+    }
+}

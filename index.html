@@ -1,36 +1,486 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/index.css">
 </head>
+<style>
+    html,
+    body {
+        height: 100%;
+    }
+
+    body {
+        margin: 0;
+    }
+
+    .content {
+        height: 100%;
+    }
+
+    .content .ping {
+        height: 100%;
+    }
+
+    li {
+        list-style: none;
+    }
+
+    .louti {
+        position: fixed;
+        top: 25%;
+        right: 3%;
+    }
+
+    .louti li {
+        width: 100px;
+        text-align: center;
+        border: 1px solid #F5F5F5;
+        height: 80px;
+        line-height: 80px;
+        cursor: pointer;
+    }
+
+    .louti li:nth-child(n+2) {
+        border-top: none;
+    }
+
+    .louti li.active {
+        background: burlywood;
+        color: white;
+    }
+</style>
+
 <body>
-    <p>132165161</p>
-    <p>132165161</p>
-    <p>132165161</p>
-    <p>132165161</p>
-    <p>132165161</p>
-    <p>132165161</p>
-    <p>132165161</p>
-    <p>132165161</p>
-    <p>132165161</p>
-    <p>132165161</p>
-    <p>132165161</p>
-    <p>132165161</p>
-    <p>132165161</p>
-    <p>132165161</p>
-    <p>132165161</p>
-    <p>132165161</p>
-    <p>132165161</p>
-    <p>132165161</p>
-    <p>132165161</p>
-    <p>132165161</p>
-    <p>132165161</p>
-    <p>132165161</p>
-    <p>132165161</p>
-    <p>132165161</p>
-    <p>132165161</p>
+
+    <div class="content">
+        <!--第一屏内容-->
+        <div>
+            <div class="body">
+                <div class="one">
+                    <div class="nav">
+                        <div class="nav1 w">
+                            <p class="logo"><a href="#"></a></p>
+                            <ul>
+                                <li><a href="#">
+                                        <span>官网首页</span>
+                                        <br>
+                                        <span>
+                                            HOMEPAGE
+                                        </span>
+                                    </a></li>
+                                <li><a href="#">
+                                        <span>新闻公告</span>
+                                        <br>
+                                        <span>
+                                            NEWS
+                                        </span>
+                                    </a></li>
+                                <li><a href="#">
+                                        <span>视听中心</span>
+                                        <br>
+                                        <span>
+                                            VISION
+                                        </span>
+                                    </a></li>
+                                <li><a href="#">
+                                        <span>王牌攻略</span>
+                                        <br>
+                                        <span>
+                                            STRATEGY
+                                        </span>
+                                    </a></li>
+                                <li><a href="#">
+                                        <span>奖励兑换</span>
+                                        <br>
+                                        <span>
+                                            EXCHANGE
+                                        </span>
+                                    </a></li>
+                                <li><a href="#">
+                                        <span>王牌论坛</span>
+                                        <br>
+                                        <span>
+                                            FORUM
+                                        </span>
+                                    </a></li>
+                                <li class="kjh"><a href="#">
+                                        <span>官方社区</span>
+                                        <br>
+                                        <span>
+                                            COMMUNITY
+                                        </span>
+                                    </a></li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="community">
+                        <p class="p1">
+                            <img src="./img/06.png" alt="">
+                        </p>
+                        <p class="p2">
+                            <img src="./img/04.png" alt="">
+                        </p>
+                        <p class="p3">
+                            <img src="./img/07.png" alt="">
+                        </p>
+                        <div>
+                        </div>
+                        <span>
+                            814445119(QQ群)
+                        </span>
+                        <span>
+                            进群暗号 : 炖菜鸡
+                        </span>
+                    </div>
+                    <div class="soe">
+                        <ul class="w">
+                            <li>
+                                <a href="#">
+                                    官网首页
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    最新
+                                </a>
+                                <br>
+                                <a href="#">
+                                    新闻
+                                </a>
+                                <br>
+                                <a href="#">
+                                    公告
+                                </a>
+                                <br>
+                                <a href="#">
+                                    活动
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    游戏壁纸
+                                </a>
+                                <a href="#">
+                                    官方视频
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    选手资料
+                                </a>
+                                <a href="#">
+                                    角色攻略
+                                </a>
+                                <a href="#">
+                                    模式攻略
+                                </a>
+                                <a href="#">
+                                    地图攻略
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    CDK兑换
+                                </a>
+                                <a href="#">
+                                    预约奖励领取
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    王牌论坛
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="erWeiMa w">
+                    <div class="qrCode">
+                        <p></p>
+                        <img src="./img/04.png" alt="">
+                        <div class="apirit">
+                            <a href="#"></a>
+                        </div>
+                        <div class="apirit1">
+                            <a href="#"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 第二屏内容 -->
+        <div class="ping staircase partTwo">
+            <div class="slideshow">
+                <img src="./img/09.jpeg" alt="">
+                <img src="./img/10.jpeg" alt="">
+                <img src="./img/11.jpeg" alt="">
+                <img src="./img/12.jpeg" alt="">
+                <img src="./img/13.jpeg" alt="">
+                <ul>
+                    <li>
+                        <a href="javascript:;">快来领取官网预约奖</a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">快来领取预约礼~</a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">
+                            微博视频征集赛
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">
+                            王牌推广官
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">王牌战士xROG</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="mp4">
+                <a href="javascript:;">
+                    <p></p>
+                    <img src="./img/16.png" alt="">
+                </a>
+            </div>
+            <div class="popup">
+                <video src="./img/08.mp4" controls=""></video>
+                <p class="close"><a href="javascript:;"></a></p>
+            </div>
+            <div class="figure w">
+
+            </div>
+            <div class="news w">
+                <ul>
+                    <div class="show">
+                        <a href="javascript:;" class="newest"></a>
+                        <p class="sanjiao"></p>
+                        <a href="javascript:;" class="newest1"></a>
+                        <p class="sanjiao1"></p>
+                        <a href="javascript:;" class="newest2"></a>
+                        <p class="sanjiao2"></p>
+                        <a href="javascript:;" class="newest3"></a>
+                    </div>
+                    <hr>
+                    <li class="zuixin">
+                        <a href="javascript:;">9月12日版本更新飞将
+                            <span>2019-09-11</span>
+                        </a>
+                        <a href="javascript:;">关于查看电话权限使用规则
+                            <span>2019-09-09</span>
+                        </a>
+                        <a href="javascript:;">关于查看内存卡权限使用规则
+                            <span>2019-09-09</span>
+                        </a>
+                        <a href="javascript:;">关于查看麦克风权限使用规则
+                            <span>2019-09-09</span>
+                        </a>
+                        <a href="javascript:;">关于查看相册权限使用规则
+                            <span>2019-09-09</span>
+                        </a>
+                    </li>
+                    <li class="xinwen">
+                        <a href="javascript:;">9月12日版本更新飞将
+                            <span>2019-09-11</span>
+                        </a>
+                        <a href="javascript:;">
+                            关于查看电话权限使用规则
+                            <span>2019-08-26</span>
+                        </a>
+                        <a href="javascript:;">
+                            关于查看内存卡权限使用规则
+                            <span>2019-08-26</span>
+                        </a>
+                        <a href="javascript:;">
+                            关于查看麦克风权限使用规则
+                            <span>2019-08-26</span>
+                        </a>
+                        <a href="javascript:;">
+                            关于查看相册权限使用规则
+                            <span>2019-08-26</span>
+                        </a>
+                    </li>
+                    <li class="gonggao">
+                        <a href="javascript:;">王牌战士外挂作弊处罚公示（更新至9月13日）
+                            <span>2019-08-26</span>
+                        </a>
+                        <a href="javascript:;">
+                            《王牌战士》安全专项打击公告
+                            <span>2019-08-26</span>
+                        </a>
+                        <a href="javascript:;">
+                            王牌主播A爆了！《王牌战士》直播首秀今日开战
+                            <span>2019-08-26</span>
+                        </a>
+                        <a href="javascript:;">
+                            《王牌战士》&触手邀你共赴战斗，赢千元现金！
+                            <span>2019-08-26</span>
+                        </a>
+                        <a href="javascript:;">
+                            策划直播？王牌策划首秀邀请玩家提问！
+                            <span>2019-08-26</span>
+                        </a>
+                    </li>
+                    <li class="huodong">
+                        <a href="javascript:;">
+                            《王牌战士》携手五大直播平台邀你成为王牌推广管，皮肤体验等你拿
+                            <span>2019-08-26</span>
+                        </a>
+                        <a href="javascript:;">
+                            樱之轮盘官网概率公示
+                            <span>2019-08-26</span>
+                        </a>
+                        <a href="javascript:;">
+                            官网预热&邀请奖励领取
+                            <span>2019-08-26</span>
+                        </a>
+                        <a href="javascript:;">
+                            王牌战士主播团48小时极限冲分挑战
+                            <span>2019-08-26</span>
+                        </a>
+                        <a href="javascript:;">
+                            王牌战士全平台上线，大鹅文化斥百万包装潜力明星主播
+                            <span>2019-08-26</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="maksTwo"></div>
+            <div class="maksOne">
+
+            </div>
+
+            <video autoplayloopposter="polina.jpg" class="bgvid" id="bgvid" autoplay="" muted="" loop="">
+                <source src="./img/08.mp4" type="video/mp4">
+            </video>
+
+        </div>
+        <div class="ping staircase">
+            <div>这是第3屏</div>
+        </div>
+        <div style="background-color: #3CB379" class="ping staircase partThree">
+            <div class="touxing w">
+                <p></p>
+                <a href="javascript:;">
+                    <img src="./img/18.png" alt="">
+                    <img src="./img/19.png" alt="">
+                </a>
+                <a href="javascript:;">
+                    <img src="./img/20.png" alt="">
+                    <img src="./img/21.png" alt="">
+                </a>
+                <a href="javascript:;">
+                    <img src="./img/22.png" alt="">
+                    <img src="./img/23.png" alt="">
+                </a>
+                <a href="javascript:;">
+                    <img src="./img/24.png" alt="">
+                    <img src="./img/25.png" alt="">
+                </a>
+                <a href="javascript:;">
+                    <img src="./img/26.png" alt="">
+                    <img src="./img/27.png" alt="">
+                </a>
+                <a href="javascript:;" class="tupian">
+                </a>
+            </div>
+            <div class="hreo w">
+                <a href="javascript:;" class="yuyin"></a>
+                <h1>语音</h1>
+                <h2>voice</h2>
+                <img src="./img/28.png" alt="" class="hreo1">
+                <img src="./img/33.png" alt="" class="jiahui">
+                <h3>井川家族</h3>
+                <div class="data-bank">
+                    <p class="p1"></p>
+                    <span class="text">火花</span>
+                    <span class="spark">S p a r k</span>
+                    <span class="line"></span>
+                    <div class="desc-name">
+                        <p class="txt">
+                            樱身为井川家族大小姐，不愿顺从家族继承人的安排，反而对父亲奇怪的机甲研究很感兴趣。父亲送她来大陆念书，临走前还将改装后的生物装甲送给了她。事后她便接到父亲离奇失踪的消息，小樱随即穿上了机甲，与MAU学员龙、幽灵一同调查真相
+                        </p>
+                        <a href="javascript:;" class="video-one"></a>
+                        <img src="./img/37.png" alt="">
+                        <img src="./img/38.png" alt="" class="img-maks">
+                        <p class="arrow"></p>
+                        <i>定位</i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="background-color: #AFEEEE" class="ping staircase">
+            <div>这是第5屏</div>
+        </div>
+    </div>
+    <script src="./js/jquery-1.12.4.js"></script>
+    <script src="./js/index.js"></script>
 </body>
+<script>
+    //内容一屏一屏的滚动
+    document.addEventListener("DOMContentLoaded", function () {
+        var body = document.body;
+        var html = document.documentElement;
+        var itv, height = document.body.offsetHeight;
+        var page = scrollTop() / height | 0;
+        addEventListener("resize", onresize, false);
+        onresize();
+
+        //鼠标滚轮事件 
+        document.body.addEventListener("onwheel" in document ? "wheel" : "mousewheel", function (e) {
+            clearTimeout(itv);
+            itv = setTimeout(function () {
+                //判断滚轮滚的方向 
+                var delta = e.wheelDelta / 120 || -e.deltaY / 3;
+                page -= delta;
+                var max = (document.body.scrollHeight / height | 0) - 1;
+                if (page < 0) {
+                    return page = 0;
+                }
+                if (page > max) {
+                    return page = max;
+                }
+                move();
+            }, 100);
+            e.preventDefault();
+        });
+        //当窗体发生变化时还是保证每次滚动滚一屏 
+        function onresize() {
+            height = body.offsetHeight;
+            move();
+        };
+
+        function move() {
+            var value = height * page;
+            var diff = scrollTop() - value;
+            (function callee() {
+                diff = diff / 1.2 | 0;
+                scrollTop(value + diff);
+                if (diff) {
+                    itv = setTimeout(callee, 16);
+                }
+            })();
+        };
+
+        function scrollTop(v) {
+            if (v == null) {
+                return Math.max(body.scrollTop, html.scrollTop);
+            } else {
+                body.scrollTop = html.scrollTop = v;
+            }
+        }
+    })
+
+</script>
+
 </html>
